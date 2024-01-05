@@ -6,7 +6,7 @@ import { test, expect } from '@playwright/test';
 test.describe('Vinith Portfolio', ()=>{
 
 
-  test('frame example ----- single frame', async ({page})=>{
+  test('jenkins frame example ----- single frame', async ({page})=>{
 
     await page.goto('https://dev-vinithkumar.vercel.app/');
 
